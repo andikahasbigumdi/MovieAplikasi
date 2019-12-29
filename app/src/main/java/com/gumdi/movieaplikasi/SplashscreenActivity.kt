@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.os.Handler
 import com.gumdi.movieaplikasi.Onboarding.OnboardingActivity
 
+
+//Menggubah waktu Dellay Pada SplashScreen
+
 class SplashscreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +19,6 @@ class SplashscreenActivity : AppCompatActivity() {
             var intent = Intent(this,OnboardingActivity::class.java)
             startActivity(intent)
             finish()
-        },2500)
+        },3000)
     }
 }
