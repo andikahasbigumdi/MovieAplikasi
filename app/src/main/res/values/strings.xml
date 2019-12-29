@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Movie Aplikasi</string>
+    <string name="lewati_perkenalan">lewati perkenalan</string>
+    <string name="lanjutkan">lanjutkan</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="onboardingone_text">Lebih Mudah Mengetahui\nFilm yang akan tampil</string>
+    <string name="presale">Presale</string>
+    <string name="onboardingtwo_text">Tidak Khawatir ketinggalan\nupdate terbaru </string>
+    <string name="casles">Cashless</string>
+    <string name="onboardingtree_text">Gunakan E-wallet untuk\ntiket menonton </string>
+    <string name="signin">sign in</string>
+    <string name="user_name">username</string>
+    <string name="password">Password</string>
+    <string name="daftar_baru">daftar baru</string>
+    <string name="sign_up">sign up</string>
+    <string name="nama">Nama</string>
+    <string name="email_addres">Email Address</string>
+    <string name="photo">Photo</string>
+    <string name="upload_nanti">Upload Nanti</string>
+    <string name="gumdi">Welcome \nAndika Hasbigumdi</string>
+    <string name="simpan_lanjjutkan">Simpan dan Lanjutkan</string>
+    <string name="andika">Andika</string>
+    <string name="comingsoon">Coming Soon</string>
+    <string name="warkop">Warkop DKI Reborn</string>
+    <string name="comedi">Comedi</string>
+    <string name="story_board">Story Board</string>
+    <string name="detail_info">Dono , Kasino , Indro merupakan 3 serangkai Pertemanan selalu bersama dalam setiap kegiatan , tingkah kocak mereka ketika dalam keseharian dan membuat lelucon</string>
+    <string name="pemain">Pemain</string>
+    <string name="pilih_banku">Pilih Bangku</string>
+    <string name="layar">Layar</string>
+    <string name="chekout">Checkout</string>
+    <string name="bayar_sekarang">Bayar sekarang</string>
+    <string name="batalkan">batalkan</string>
+    <string name="booked">Booked</string>
+    <string name="date_time">Date and Time</string>
+    <string name="cinema">Cinema</string>
+    <string name="item">Item</string>
+    <string name="setkursi1">Seat No C1</string>
+    <string name="setkursi2">Seat No C2</string>
+    <string name="harga">IDR 70.000</string>
+    <string name="total">Total yang harus dibayar</string>
+    <string name="total_harga">IDR 140.000</string>
+    <string name="ewalet">E-Wallet</string>
+    <string name="lima_ratus">IDR 500.000</string>
+    <string name="e_total">Total Balance</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="simpan_data">Simpan data Baru</string>
+    <string name="my_wallete">My Wallets</string>
+    <string name="beli_tiket">Beli Tiket</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
