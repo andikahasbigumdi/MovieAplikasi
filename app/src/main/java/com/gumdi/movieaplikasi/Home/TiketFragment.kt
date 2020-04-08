@@ -37,6 +37,7 @@ class TiketFragment : Fragment() {
     }
 
 
+
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
@@ -74,6 +75,7 @@ class TiketFragment : Fragment() {
             }
         })
     }
+
 
 
 }

@@ -1,11 +1,13 @@
 package com.gumdi.movieaplikasi.Home
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.gumdi.movieaplikasi.Checkout.Model.Checkout
 import com.gumdi.movieaplikasi.Home.Model.Film
+import com.gumdi.movieaplikasi.MyHistoryActivity
 import com.gumdi.movieaplikasi.R
 import kotlinx.android.synthetic.main.activity_tiket.*
 
@@ -34,5 +36,13 @@ class TiketActivity : AppCompatActivity() {
         rc_checkout.adapter = TiketAdapter(dataList) {
         }
 
+        imageView3.setOnClickListener {
+            var intent = Intent(this,MyHistoryActivity::class.java)
+            startActivity(intent)
+        }
     }
+
+    override fun onBackPressed() {
+    }
+
 }

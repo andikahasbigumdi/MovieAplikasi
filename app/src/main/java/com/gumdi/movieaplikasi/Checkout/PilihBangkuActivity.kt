@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.gumdi.movieaplikasi.Checkout.Model.Checkout
+import com.gumdi.movieaplikasi.DetailActivity
 import com.gumdi.movieaplikasi.Home.Model.Film
 import com.gumdi.movieaplikasi.R
 import kotlinx.android.synthetic.main.activity_pilih_bangku.*
@@ -62,10 +63,13 @@ class PilihBangkuActivity :AppCompatActivity(){
 
         btn_home.setOnClickListener {
 
-            val intent = Intent(
-                this,
-                CheckoutActivity::class.java
-            ).putExtra("data", dataList)
+            val intent = Intent(this, CheckoutActivity::class.java).putExtra("data", dataList).putExtra("datas", data)
+            startActivity(intent)
+        }
+
+        imageView3.setOnClickListener {
+
+            val intent = Intent(this@PilihBangkuActivity,DetailActivity::class.java)
             startActivity(intent)
         }
 
